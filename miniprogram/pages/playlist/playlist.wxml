@@ -1,0 +1,16 @@
+<!--pages/playlist/playlist.wxml-->
+<swiper indicator-dots="true" autoplay="true" interval="2000" duration="1000">
+  <block wx:for="{{swiperImgUrls}}" wx:key="url">
+    <swiper-item>
+      <image src="{{item.url}}" mode="widthFix" class="img"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class="playlist-container">
+  <block wx:for="{{playlist}}" wx:key="_id">
+    <!-- 参数：playlist 自定义名称，传入组件的数据 -->
+    <x-playlist playlist="{{item}}"></x-playlist>
+  </block>
+  <view class="load-more" hidden="{{!loadMore}}">正在加载...</view>
+</view>
