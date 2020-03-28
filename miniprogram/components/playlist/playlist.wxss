@@ -9,6 +9,16 @@
   height: 220rpx;
   border-radius: 6rpx;
 }
+.playlist-playcount {
+  font-size: 24rpx;
+  color: #fff;
+  text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  position: absolute;
+  right: 10rpx;
+  top: 4rpx;
+  padding-left: 36rpx;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABA0lEQVQ4T7XTsS5EQRiG4fdNXICCRCGaVdFRbSGiQLcaV6FU6dhKolCRqEQnS+cG2EgUItHpJArhMj45OMnuscsmJ6aZYuZ/5vtnMlJzWLOeX4EkU8CY+jrsoIFAkgZwAKwCm8AucKSeV6EfQJI54A5YVJ+LgiSzwDHQUU97kT4gyThwD6ypL70bk0wAj8C2elmuVYENoKEeDuo5yRYwo+70AUlawDpQxD9RO0OASeDie62t3nwmSPIA7BV9A0+9EatQkmugDeyrzRKIapLitv8E1JUkXXW5DnCrLpXAFfAOvI2SAOgCC2qrBKaBJjAPnFWfsPKcxV2hfs3/+hdGwWsn+ADIaHIRmgiR8AAAAABJRU5ErkJggg==) no-repeat;
+}
 .playlist-name {
   font-size: 26rpx;
   line-height: 1.2;
